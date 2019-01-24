@@ -1,4 +1,10 @@
-
+/*************************************************************************
+ *purpose   : controller is responsible for accepting and sending data.
+ * @file    : login.js
+ * @author  : Pushkar
+ * @version : 1.0
+ * @since   : 22/01/2019 
+ **********************************************************************/
 app.controller('login', function ($scope, services,$state)
  {
 

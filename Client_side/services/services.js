@@ -1,3 +1,11 @@
+/*************************************************************************
+ *purpose   :  AngularJS service, you add it as a dependency for the component (controller, service, filter or directive) that depends on the service.
+ * @file    : userservices.js
+ * @author  : Pushkar
+ * @version : 1.0
+ * @since   : 22/01/2019 
+ **********************************************************************/
+
 app.service('services', function ($http, $location) {
 
   /**

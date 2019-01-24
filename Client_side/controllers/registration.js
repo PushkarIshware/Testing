@@ -1,4 +1,10 @@
-
+/*************************************************************************
+ *purpose   : controller is responsible for accepting and sending data.
+ * @file    : registration.js
+ * @author  : Pushkar
+ * @version : 1.0
+ * @since   : 22/01/2019 
+ **********************************************************************/
 // app.controller('registrationctrl', function ($scope,userservices)
 //app.controller('registrationctrl', function ($scope,services, $state)
 app.controller('registration', function ($scope,services, $state)
