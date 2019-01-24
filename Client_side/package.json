@@ -1,0 +1,17 @@
+{
+  "name": "client_side",
+  "version": "1.0.0",
+  "description": "",
+  "main": "angular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "^7.2.1",
+    "@angular/cdk": "^7.2.1",
+    "@angular/material": "^7.2.1"
+  }
+
+}

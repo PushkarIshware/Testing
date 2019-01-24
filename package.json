@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@angular/animations": "angular/animations-builds",
+    "@angular/cdk": "angular/cdk-builds",
+    "@angular/material": "angular/material2-builds",
+    "@material-ui/core": "^3.9.0",
+    "@material-ui/icons": "^3.0.2"
+  }
+}

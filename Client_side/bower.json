@@ -1,0 +1,21 @@
+{
+  "name": "client_side",
+  "description": "",
+  "main": "angular.js",
+  "authors": [
+    "pushkar <pushkar.ishware@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/PushkarIshware/BridgeLabz_Python",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.6",
+    "jquery": "^3.3.1"
+  }
+}

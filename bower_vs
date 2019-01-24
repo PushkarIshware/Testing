@@ -1,0 +1,110 @@
+admin1@admin1-desktop:~/Angular_1.6/Client_side$ bower --version
+
+Command 'bower' not found, but can be installed with:
+
+sudo snap install bower
+
+admin1@admin1-desktop:~/Angular_1.6/Client_side$ npm --version
+5.8.0
+admin1@admin1-desktop:~/Angular_1.6/Client_side$ sudo npm install -g bower
+[sudo] password for admin1:
+/usr/local/bin/bower -> /usr/local/lib/node_modules/bower/bin/bower
++ bower@1.8.7
+added 1 package from 1 contributor in 1.668s
+admin1@admin1-desktop:~/Angular_1.6/Client_side$ bower install jquery
+bower not-cached    https://github.com/jquery/jquery-dist.git#*
+bower resolve       https://github.com/jquery/jquery-dist.git#*
+bower download      https://github.com/jquery/jquery-dist/archive/3.3.1.tar.gz
+bower extract       jquery#* archive.tar.gz
+bower resolved      https://github.com/jquery/jquery-dist.git#3.3.1
+bower install       jquery#3.3.1
+jquery#3.3.1 bower_components/jquery
+admin1@admin1-desktop:~/Angular_1.6/Client_side$ bower install angular
+bower not-cached    https://github.com/angular/bower-angular.git#*
+bower resolve       https://github.com/angular/bower-angular.git#*
+bower download      https://github.com/angular/bower-angular/archive/v1.7.6.tar.gz
+bower progress      angular#* received 0.3MB of 0.6MB downloaded, 54%
+bower progress      angular#* received 0.4MB of 0.6MB downloaded, 60%
+bower progress      angular#* received 0.4MB of 0.6MB downloaded, 64%
+bower progress      angular#* received 0.4MB of 0.6MB downloaded, 69%
+bower progress      angular#* received 0.4MB of 0.6MB downloaded, 74%
+bower progress      angular#* received 0.5MB of 0.6MB downloaded, 79%
+bower progress      angular#* received 0.5MB of 0.6MB downloaded, 85%
+bower progress      angular#* received 0.5MB of 0.6MB downloaded, 88%
+bower progress      angular#* received 0.6MB of 0.6MB downloaded, 93%
+bower progress      angular#* received 0.6MB of 0.6MB downloaded, 96%
+bower progress      angular#* received 0.6MB of 0.6MB downloaded, 99%
+bower extract       angular#* archive.tar.gz
+bower resolved      https://github.com/angular/bower-angular.git#1.7.6
+bower install       angular#1.7.6
+
+angular#1.7.6 bower_components/angular
+admin1@admin1-desktop:~/Angular_1.6/Client_side$ bower init
+? name client_side
+? description
+? main file angular.js
+? keywords
+? authors pushkar <pushkar.ishware@gmail.com>
+? license ISC
+? homepage https://github.com/PushkarIshware/BridgeLabz_Python
+? set currently installed components as dependencies? Yes
+? add commonly ignored files to ignore list? Yes
+? would you like to mark this package as private which prevents it from being accidentally published to the registry? No
+
+{
+  name: 'client_side',
+  description: '',
+  main: 'angular.js',
+  authors: [
+    'pushkar <pushkar.ishware@gmail.com>'
+  ],
+  license: 'ISC',
+  homepage: 'https://github.com/PushkarIshware/BridgeLabz_Python',
+  ignore: [
+    '**/.*',
+    'node_modules',
+    'bower_components',
+    'test',
+    'tests'
+  ],
+  dependencies: {
+    angular: '^1.7.6',
+    jquery: '^3.3.1'
+  }
+}
+
+? Looks good? Yes
+admin1@admin1-desktop:~/Angular_1.6/Client_side$ bower search angular
+Search results:
+
+    angular https://github.com/angular/bower-angular.git
+    ax-angular https://github.com/activewidgets/angular-adapter.git
+    angular-f https://github.com/silvandiepen/f.git
+    angular-m https://github.com/dlhdesign/angular-m.git
+    mb.angular https://github.com/mbonfanti/mb.angular.git
+    c3-angular https://github.com/jettro/c3-angular-sample.git
+    angular-adn https://github.com/appdotnet/angular-adn.git
+    angular-db https://github.com/samuraisam/angular-db.git
+    angular-rx https://github.com/Reactive-Extensions/rx.angular.js.git
+    dt-angular https://github.com/dt-bower/dt-angular.git
+    angular-co https://github.com/let4be/angular-co.git
+    angular-mv https://github.com/hyperboloide/angular-mv.git
+    angular-apm https://github.com/randith/angular-apm.git
+    hy-angular https://github.com/jcdalton2201/hy-angular.git
+    angular-acl https://github.com/mikemclin/angular-acl.git
+    angular-ace https://github.com/r10r/angular-ace.git
+    angular-d3 https://github.com/angular-d3/lazy-panda.git
+    angular-ui https://github.com/angular-ui/angular-ui.git
+    d3-angular https://github.com/beefsack/angular-d3.git
+    angular-ts https://github.com/steve-taylor/angular-ts.git
+    angular-amd https://github.com/david-driscoll/ng-amd.git
+    angular-ws https://github.com/neoziro/angular-ws.git
+    angular-c3 https://github.com/maseh87/c3-chart.git
+    angular-io https://github.com/willfarrell/angular-io.git
+    angular-md https://github.com/yaru22/angular-md.git
+    angular-r3 https://github.com/tundrax/angular-r3.git
+    angular-abc https://github.com/JakeSidSmith/abc.git
+    angular-aop https://github.com/mgechev/angular-aop.git
+    sk-angular https://github.com/skcloud/sk-angular.git
+    angular-dc https://github.com/TomNeyland/angular-dc.git
+admin1@admin1-desktop:~/Angular_1.6/Client_side$

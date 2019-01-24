@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angularjs controller</title>
+    <link rel="stylesheet" type="text/css" href="../css/Style.css">
+    <link href="../css/js.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!-- <link rel="stylesheet" href="../Client_side/css/Style.css"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/login.js"></script>
+    <script src="controllers/registration.js"></script>
+    <script src="controllers/dashboard.js"></script>
+    <script src="./services/services.js"></script>
+    <!-- <script type="text/javascript" src="../Client_side/css/js.js"></script> -->
+    
+    
+</head>
+
+<body ng-app="mainapp">
+    <hgroup>
+        <h2 align="center" class="heading">Welcome to Chat App</h2>
+        <hr>
+    </hgroup>
+
+    <ui-view></ui-view>
+
+</body>
+</html>
