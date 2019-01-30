@@ -4,7 +4,7 @@ from channels.routing import ProtocolTypeRouter, URLRouter  # node selection (re
 import chat.routing
 application = ProtocolTypeRouter({
     # (http->django views is added by default)
-    'websocket': AuthMiddlewareStack(
+    'websocket': AuthMiddlewareStack(               #hello this is commenting
         URLRouter(
             chat.routing.websocket_urlpatterns
         )
